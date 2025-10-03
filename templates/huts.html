@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Хижи - Цветни хижи и заслони{% endblock %}
+
+{% block content %}
+  <h1>Обновени хижи</h1>
+  <p>Тук ще намерите списък с всички хижи и заслони, които са част от инициативата.</p>
+
+  <!-- Пример за структура на хижа. Това ще бъде генерирано динамично в бъдеще. -->
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <!-- Място за снимка -->
+        <svg class="bd-placeholder-img img-fluid rounded-start" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Снимка на хижата</text></svg>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Име на хижата</h5>
+          <p class="card-text">Кратко описание на хижата, местоположение, надморска височина и капацитет. Разказ за извършения ремонт и какви подобрения са направени благодарение на "Оргахим".</p>
+          <p class="card-text"><small class="text-muted">Последно обновенa на dd.mm.yyyy</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
